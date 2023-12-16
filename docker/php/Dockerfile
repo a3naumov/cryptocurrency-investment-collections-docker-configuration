@@ -9,9 +9,11 @@ RUN apk add --no-cache \
     curl \
     zip \
     libpq-dev \
+    icu-dev \
     linux-headers \
     $PHPIZE_DEPS \
 && docker-php-ext-install \
+    intl \
     pdo_pgsql \
     opcache \
 ;
