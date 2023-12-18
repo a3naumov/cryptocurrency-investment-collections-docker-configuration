@@ -12,11 +12,7 @@ This repository contains Docker configuration files for running [project](https:
 
 Follow these steps to set up and run the project using Docker and Docker Compose.
 
-1) Create src folder and clone the project repository
-
-```shell
-mkdir src
-```
+1) Follow the instructions from the main repository
 
 2) Make Scripts Executable
 
